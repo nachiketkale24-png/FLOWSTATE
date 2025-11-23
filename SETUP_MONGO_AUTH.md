@@ -24,7 +24,7 @@ Create a `.env` file in the `backend` directory:
 # MongoDB Configuration
 MONGO_URI=mongodb://localhost:27017/flowstate
 # OR for MongoDB Atlas:
-# MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/flowstate
+# MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/flowstate
 
 # JWT Configuration
 JWT_SECRET=your-super-secret-jwt-key-change-this-to-something-random
